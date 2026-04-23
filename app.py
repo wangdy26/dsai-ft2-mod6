@@ -74,7 +74,7 @@ def paynow():
 
 @app.route("/agenticAI",methods=["GET","POST"])
 def agenticAI():
-    return(render_template("agenticAI.html"))
+    return(render_template("agentic_ai.html"))
 
 @app.route("/userlog",methods=["GET","POST"])
 def userlog():
