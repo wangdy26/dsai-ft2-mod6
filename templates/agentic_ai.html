@@ -1,0 +1,25 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+    <h2>Welcome to multi-agent chatbot</h2>
+
+    <button onclick="openAIagent()">Multi-agent Chatbot</button>
+
+    <script>
+        function openGoogle(){
+        window.open("https://704688e85a5a1091f4.gradio.live", "_blank");
+    }
+    </script>
+   
+    <form action="/main" method="post">
+        <input type = "submit" value="Main">
+    </form>
+    </div>
+</body>
+
+
+
+
